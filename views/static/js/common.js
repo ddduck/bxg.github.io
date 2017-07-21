@@ -14,4 +14,4 @@ define(["jquery","template","cookie"],function($,template){
       $("#profile").html(html);
     }
   });
-})
+});
