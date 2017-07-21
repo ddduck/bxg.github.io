@@ -6,6 +6,6 @@ require.config({
   paths:{
     jquery:"jquery/jquery.min",
     cookie:"jquery-cookie/jquery.cookie",
-    template:"arttemplate/template-web"
+    template:"artTemplate/template-web"
   }
 });

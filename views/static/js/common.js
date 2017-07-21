@@ -1,4 +1,4 @@
-define(["jquery","template","cookie"],function($){
+define(["jquery","template","cookie"],function($,template){
   $(function(){
     //判断用户当前在页面,如果不在登陆页面才执行下面的代码
     if(location.pathname != "/dashboard/login"){
