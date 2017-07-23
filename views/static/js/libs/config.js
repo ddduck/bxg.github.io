@@ -7,6 +7,12 @@ require.config({
     jquery:"jquery/jquery.min",
     cookie:"jquery-cookie/jquery.cookie",
     template:"artTemplate/template-web",
-    form:"jquery-form/jquery.form"
+    form:"jquery-form/jquery.form",
+    bootstrap:"bootstrap/js/bootstrap.min"
+  },
+  shim:{
+    bootstrap:{
+      deps:["jquery"]
+    }
   }
 });
