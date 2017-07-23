@@ -1,7 +1,7 @@
 /**
  * Created by DYH98 on 2017/7/23.
  */
-define(["jquery","template","utils","form"],function($,template,utils){
+define(["jquery","template","utils","form","datepicker","datepickerCN"],function($,template,utils){
   //首先获取页面url中地址参数id
   var id = utils.getQueryByKey("id");
 
@@ -16,6 +16,10 @@ define(["jquery","template","utils","form"],function($,template,utils){
     }
     var html = template("add-tpl",obj);
     $(".body.teacher").html(html);
+    $("input[name=tc_join_date]").datepicker({
+      language:"zh-CN",
+      format:"yyyy-mm-dd"
+    });
   }else{
     //编辑讲师信息功能
     $.ajax({
@@ -30,6 +34,10 @@ define(["jquery","template","utils","form"],function($,template,utils){
           data.result.url = "/api/teacher/update";
           var html = template("add-tpl",data.result);
           $(".body.teacher").html(html);
+          $("input[name=tc_join_date]").datepicker({
+            language:"zh-CN",
+            format:"yyyy-mm-dd"
+          });
         }
       }
     })
