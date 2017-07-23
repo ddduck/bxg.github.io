@@ -8,7 +8,8 @@ require.config({
     cookie:"jquery-cookie/jquery.cookie",
     template:"artTemplate/template-web",
     form:"jquery-form/jquery.form",
-    bootstrap:"bootstrap/js/bootstrap.min"
+    bootstrap:"bootstrap/js/bootstrap.min",
+    utils:"../static/js/libs/utils"
   },
   shim:{
     bootstrap:{
