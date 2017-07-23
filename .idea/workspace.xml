@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="13e303ac-ad2e-40c1-8633-61516102ab75" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+    <list default="true" id="13e303ac-ad2e-40c1-8633-61516102ab75" name="默认的" comment="" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
     <ignored path="studyit.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,6 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
       <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/static/js/dashboard/login.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,17 +45,35 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.60902256">
               <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+=======
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/static/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/static/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
+=======
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/dashboard/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0751879">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
             </state>
           </provider>
         </entry>
@@ -61,6 +84,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+<<<<<<< HEAD
         <option value="JavaScript File" />
       </list>
     </option>
@@ -72,6 +96,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+=======
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/public/header.html" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
         <option value="$PROJECT_DIR$/views/course/topic.html" />
         <option value="$PROJECT_DIR$/views/dashboard/repass.html" />
         <option value="$PROJECT_DIR$/views/course/list.html" />
@@ -90,6 +123,7 @@
         <option value="$PROJECT_DIR$/views/dashboard/settings.html" />
         <option value="C:/wamp64/bin/apache/apache2.4.23/conf/httpd.conf" />
         <option value="$PROJECT_DIR$/views/public/css.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/views/public/aside.html" />
         <option value="$PROJECT_DIR$/views/dashboard/login.html" />
         <option value="$PROJECT_DIR$/views/dashboard/index.html" />
@@ -98,6 +132,13 @@
         <option value="$PROJECT_DIR$/views/static/js/common.js" />
         <option value="$PROJECT_DIR$/views/static/js/dashboard/login.js" />
         <option value="$PROJECT_DIR$/views/public/header.html" />
+=======
+        <option value="$PROJECT_DIR$/views/dashboard/index.html" />
+        <option value="$PROJECT_DIR$/views/static/js/common.js" />
+        <option value="$PROJECT_DIR$/views/public/js.html" />
+        <option value="$PROJECT_DIR$/views/public/aside.html" />
+        <option value="$PROJECT_DIR$/views/dashboard/login.html" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
       </list>
     </option>
   </component>
@@ -144,6 +185,10 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,6 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="studyit" />
@@ -237,27 +283,45 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+=======
+        </subPane>
+      </pane>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../code/day-55-博学谷" />
+=======
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\studyit\views\static\js" />
       <recent name="D:\study\studyit\views\assets\jquery" />
       <recent name="D:\study\studyit\views\assets\artTemplate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\studyit\views\assets\artTemplate" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\studyit\views\assets\jquery" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
       <recent name="D:\study\studyit\views\assets\artTemplate" />
     </key>
   </component>
@@ -325,7 +389,11 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19044062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14712472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -381,10 +449,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/views/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
     <entry file="file://$PROJECT_DIR$/views/dashboard/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
         </state>
       </provider>
     </entry>
@@ -392,6 +477,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
         </state>
       </provider>
     </entry>
@@ -399,6 +490,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
         </state>
       </provider>
     </entry>
@@ -469,6 +564,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.5752212">
           <caret line="357" column="16" selection-start-line="357" selection-start-column="16" selection-end-line="357" selection-end-column="16" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
         </state>
       </provider>
     </entry>
@@ -624,6 +723,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/views/public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68421054">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
     <entry file="file://$PROJECT_DIR$/../code/day-52-博学谷/知识点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.14661655">
@@ -659,6 +768,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/views/dashboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2481203">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
     <entry file="file://D:/就业班全套视频课程/12-博学谷/day04/day04/studyit/views/static/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1840708">
@@ -675,6 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/public/aside.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-9.818182">
           <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
         </state>
@@ -686,10 +806,17 @@
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+=======
+        <state vertical-scroll-proportion="-11.818182">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#!!top" expanded="false" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/views/dashboard/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60902256">
@@ -708,10 +835,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19548872">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/views/public/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34210527">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/views/static/js/libs/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3681416">
@@ -736,15 +870,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/views/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/views/public/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60902256">
           <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/views/dashboard/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0751879">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+>>>>>>> f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1
         </state>
       </provider>
     </entry>
