@@ -9,6 +9,14 @@ define(["jquery","template","bootstrap"],function($,template){
       url:"/api/teacher",
       success:function(data){
         if(data.code == 200){
+          //模板引擎过滤器，计算年龄
+          //一定要有返回值
+          template.defaults.imports.getAge = function(birthday){
+            var now = new Date();
+            birthday = new Date(birthday);
+            var age = now.getFullYear() - birthday.getFullYear();
+            return age;
+          }
           var html = template("teacher-list-tpl",data);
           $("#panel-list").html(html);
         }

@@ -52,10 +52,7 @@ define(["jquery","template","cookie"],function($,template) {
     if(activeUl.siblings("a").length == 1){
       activeUl.slideDown();
     }
-
-
   });
-
 });
 
 

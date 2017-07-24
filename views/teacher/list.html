@@ -75,7 +75,8 @@
           <td>{{i + 1}}</td>
           <td>{{v.tc_name}}</td>
           <td>{{v.tc_roster}}</td>
-          <td>28</td>
+          <!--模板引擎过滤器（参数一 | 参数而）：把|前面的参数传递给|后面的这个函数，最终显示返回值-->
+          <td>{{v.tc_birthday | getAge}}</td>
           <td>{{if v.tc_gender == "1"}}女{{else}}男{{/if}}</td>
           <td>{{v.tc_cellphone}}</td>
           <td>
