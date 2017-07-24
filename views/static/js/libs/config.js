@@ -12,7 +12,8 @@ require.config({
     utils:"../static/js/libs/utils",
     datepicker:"bootstrap-datepicker/js/bootstrap-datepicker.min",
     datepickerCN:"bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min",
-    nprogress:"nprogress/nprogress"
+    nprogress:"nprogress/nprogress",
+    validate:"jquery-validate/jquery-validate.min"
   },
   shim:{
     bootstrap:{
@@ -22,6 +23,9 @@ require.config({
       deps:["jquery"]
     },
     nprogress:{
+      deps:["jquery"]
+    },
+    validate:{
       deps:["jquery"]
     }
   }

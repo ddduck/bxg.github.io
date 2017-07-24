@@ -1,7 +1,7 @@
 /**
  * Created by DYH98 on 2017/7/23.
  */
-define(["jquery","template","utils","form","datepicker","datepickerCN"],function($,template,utils){
+define(["jquery","template","utils","validate","form","datepicker","datepickerCN"],function($,template,utils){
   //首先获取页面url中地址参数id
   var id = utils.getQueryByKey("id");
 
@@ -20,6 +20,7 @@ define(["jquery","template","utils","form","datepicker","datepickerCN"],function
       language:"zh-CN",
       format:"yyyy-mm-dd"
     });
+    validForm();
   }else{
     //编辑讲师信息功能
     $.ajax({
@@ -43,21 +44,48 @@ define(["jquery","template","utils","form","datepicker","datepickerCN"],function
             format:"yyyy-mm-dd"
           });
         }
-      }
-    })
-  }
-
-  //注册表单提交事件
-  $(".body.teacher").on("submit","form",function(){
-    $(this).ajaxSubmit({
-      success:function(data){
-        //console.log(data);
-        if(data.code == 200){
-          location.href = "/teacher/list";
-        }
+        validForm();
       }
     });
-    return false;
-  });
 
+  }
+
+
+  //校验表单函数
+  function validForm(){
+    $("form").validate({
+      onKeyup:true,
+      onBlur:true,
+      onChange:true,
+      sendForm:false,
+      description: {
+        name: {
+          required: "请输入姓名",
+          valid: "姓名填写正确",
+        },
+        pass:{
+          required:"请输入密码",
+          pattern:"密码为6~18位数",
+        }
+      },
+      eachValidField:function(){
+        this.parent().parent().addClass("has-success").removeClass("has-error");
+      },
+      eachInvalidField:function(){
+        this.parent().parent().addClass("has-error").removeClass("has-success");
+      },
+      valid:function(){
+        //console.log(this);
+        //在表单整体校验成功之后进行表单提交
+        $(this).ajaxSubmit({
+          success:function(data){
+            //console.log(data);
+            if(data.code == 200){
+              location.href = "/teacher/list";
+            }
+          }
+        });
+        },
+    });
+  }
 });
