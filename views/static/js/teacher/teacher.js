@@ -2,7 +2,7 @@
  * Created by DYH98 on 2017/7/23.
  */
 
-define(["jquery","template","bootstrap"],function($,template){
+define(["jquery","template",,"nprogress","bootstrap"],function($,template,NProgress){
   $(function(){
     //获取讲师列表
     $.ajax({
@@ -20,7 +20,7 @@ define(["jquery","template","bootstrap"],function($,template){
           var html = template("teacher-list-tpl",data);
           $("#panel-list").html(html);
         }
-      }
+      },
     });
 
     //点击查看，弹出模态框

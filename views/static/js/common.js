@@ -1,6 +1,18 @@
 
-define(["jquery","template","cookie"],function($,template) {
+define(["jquery","template","nprogress","cookie"],function($,template,NProgress) {
   $(function () {
+
+    //一进来就有进度条加载
+    NProgress.start();
+    NProgress.done();
+    //ajax全局事件
+    $(document).ajaxStart(function(){
+      NProgress.start();
+    });
+    $(document).ajaxStop(function(){
+      NProgress.done();
+    })
+
     //判断用户当前在页面,如果不在登陆页面才执行下面的代码
     if (location.pathname != "/dashboard/login") {
       //判断用户是否登录
