@@ -12,7 +12,7 @@ define(["jquery"],function($){
       },
       success:function(data){
         if(data.code==200){
-          //console.log(data);
+          console.log(data);
           location.href = "/course/step1?id=" + data.result.cs_id;
         }
       }

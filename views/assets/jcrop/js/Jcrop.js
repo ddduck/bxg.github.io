@@ -1758,7 +1758,7 @@ Jcrop.registerStageType('Canvas',CanvasStage);
     prototype: {
       recopyCanvas: function(){
         var s = this.core.ui.stage, cxt = s.context;
-        this.context.putImageData(cxt.getImageData(0,0,s.canvas.width,s.canvas.height),0,0);
+        // this.context.putImageData(cxt.getImageData(0,0,s.canvas.width,s.canvas.height),0,0);
       },
       init: function(core,options){
         var t = this;
@@ -1766,7 +1766,7 @@ Jcrop.registerStageType('Canvas',CanvasStage);
         $.extend(this,Thumbnailer.defaults,options);
         t.initEvents();
         t.refresh();
-        t.insertElements();
+        t.insertElements(options);
         if (t.selection) {
           t.renderSelection(t.selection);
           t.selectionTarget = t.selection.element[0];
@@ -1789,13 +1789,17 @@ Jcrop.registerStageType('Canvas',CanvasStage);
         this.refresh();
         return this;
       },
-      insertElements: function(){
+      insertElements: function(options){
+        //可以获取到在使用的时候传进来的参数
+        //参数中包含 容器（想要将缩略图放置的位置）的选择器
         this.preview = $($.Jcrop.imageClone(this.core.ui.stage.imgsrc));
 
         this.element = $('<div />').addClass('jcrop-thumb')
+          .css("top", options.top)
           .width(this.width).height(this.height)
           .append(this.preview)
-          .appendTo(this.core.container);
+          .appendTo($(options.container));
+          // .appendTo(this.core.container);
       },
       resize: function(w,h){
         this.width = w;

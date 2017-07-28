@@ -1,7 +1,7 @@
 /**
  * Created by DYH98 on 2017/7/24.
  */
-define(["jquery","ckeditor","template","datepicker","datepickerCN","region","uploadify"],function($,CKEDITOR,template) {
+define(["jquery", "ckeditor", "template", "datepicker", "datepickerCN", "region", "uploadify"], function ($, CKEDITOR, template) {
   //发送ajax请求
   $.ajax({
     url: "/api/teacher/profile",
@@ -82,22 +82,21 @@ define(["jquery","ckeditor","template","datepicker","datepickerCN","region","upl
         //  return false;
         //})
 
-        $("#btn").on("click",function(){
+        $(".settings").on("click","#btn",function () {
           $.ajax({
             url: "/api/teacher/modify",
-                type: "post",
-                data: {
-                  tc_id: data.result.tc_id
-                },
-                success: function (data) {
-                  console.log(data);
-                  if (data.code == 200) {
-                    alert("资料更新成功");
-                  }
-                }
+            type: "post",
+            data: {
+              tc_id: data.result.tc_id
+            },
+            success: function (data) {
+              if (data.code == 200) {
+                console.log(data);
+                alert("资料更新成功");
+              }
+            }
           });
           return false;
-
         })
 
       }
