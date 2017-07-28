@@ -31,7 +31,7 @@
         <div class="form-group">
           <label for="" class="col-xs-3 control-label">姓名</label>
           <div class="col-xs-5">
-            <p class="form-control-static">赵玉川</p>
+            <p class="form-control-static">{{tc_name}}</p>
           </div>
         </div>
         <div class="form-group">
@@ -51,17 +51,17 @@
         <div class="form-group">
           <label for="" class="col-xs-3 control-label">昵称</label>
           <div class="col-xs-5">
-            <input type="text" naem="tc_roster" value="{{tc_roster}}" class="form-control input-sm">
+            <input type="text" name="tc_roster" value="{{tc_roster}}" class="form-control input-sm">
           </div>
         </div>
         <div class="form-group">
           <label for="" class="col-xs-3 control-label">性别</label>
           <div class="col-xs-3">
             <label class="radio-inline">
-              <input type="radio" value="1" {{if tc_gender == "1"}}checked{{/if}}> 男
+              <input type="radio" name="tc_gender" value="0" {{if tc_gender == "0"}}checked{{/if}}> 男
             </label>
             <label class="radio-inline">
-              <input type="radio" value="0" {{if tc_gender == "0"}}checked{{/if}}> 女
+              <input type="radio" name="tc_gender" value="1" {{if tc_gender == "1"}}checked{{/if}}> 女
             </label>
           </div>
         </div>
@@ -76,10 +76,10 @@
           <label for="" class="col-xs-3 control-label">籍贯</label>
           <div class="col-xs-5" id="region">
             <select name="" class="form-control input-sm" id="p" data-id="{{tc_province}}">
-              <option value="">请选择省份</option>
+              <option value="">请选择省</option>
             </select>
             <select name="" class="form-control input-sm" id="c" data-id="{{tc_city}}">
-              <option value="">请选择市区</option>
+              <option value="">请选择市</option>
             </select>
             <select name="" class="form-control input-sm" id="d" data-id="{{tc_district}}">
               <option value="">请选择县</option>
@@ -109,7 +109,7 @@
         <div class="form-group">
           <label for="" class="col-xs-3 control-label">个人介绍</label>
           <div class="col-xs-5 ckeditor">
-            <textarea name="editor" rows="15" name="tc_introduce" class="form-control input-sm">{{tc_introduce}}</textarea>
+            <textarea name="tc_introduce" rows="15" class="form-controlinput-sm">{{tc_introduce}}</textarea>
           </div>
         </div>
         <div class="form-group">

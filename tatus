@@ -1,0 +1,121 @@
+[33mcommit d476d2c92c187ccba11ed11d24ecf691d38faa60[m
+Author: deng <dengyahui@dd.com>
+Date:   Fri Jul 28 10:44:13 2017 +0800
+
+    大致完成
+
+[33mcommit 04861fedfd0d660d31a2d07be334c654b86a5a47[m
+Author: deng <dengyahui@dd.com>
+Date:   Wed Jul 26 23:07:43 2017 +0800
+
+    课程添加页面完成至跳转step1，剩余的未完成
+
+[33mcommit 2bd145c58c5f798ce90d80c9729c678e11148d02[m
+Author: deng <dengyahui@dd.com>
+Date:   Wed Jul 26 22:52:31 2017 +0800
+
+    个人中心页面还有一个bug没解决
+
+[33mcommit b21c190828328f126bb5c0f7a32a84f007dd42ab[m
+Author: deng <dengyahui@dd.com>
+Date:   Mon Jul 24 21:40:33 2017 +0800
+
+    个人中心的ckeditor插件使用完善个人介绍功能完成
+
+[33mcommit 0dd48c6e07269f3411b0507f5af8326866e68ebb[m
+Author: deng <dengyahui@dd.com>
+Date:   Mon Jul 24 21:25:12 2017 +0800
+
+    讲师添加列表的表单校验功能完成
+
+[33mcommit 1a81d483c623d21a42b41b5a74ac0ab217cb2a7e[m
+Author: deng <dengyahui@dd.com>
+Date:   Mon Jul 24 19:32:45 2017 +0800
+
+    ajax全局事件 加载进度条插件使用完成
+
+[33mcommit 300c316489e057226758dd38815fa076e866d84e[m
+Author: deng <dengyahui@dd.com>
+Date:   Mon Jul 24 09:35:37 2017 +0800
+
+    vi
+
+[33mcommit a68033c1f3ba3bbe82d4a0c5c363fe45ef48540e[m
+Author: deng <dengyahui@dd.com>
+Date:   Sun Jul 23 23:29:02 2017 +0800
+
+    aside侧边栏交互功能实现了
+
+[33mcommit d629ebea23e18b9aa211d8c9b544b3d12188b77d[m
+Author: deng <dengyahui@dd.com>
+Date:   Sun Jul 23 22:53:13 2017 +0800
+
+    日期选择插件使用完毕
+
+[33mcommit 9a3d28c7428c6e29cf2d8f1b0ceb08067fc71420[m
+Author: deng <dengyahui@dd.com>
+Date:   Sun Jul 23 22:34:22 2017 +0800
+
+    讲师列表的编辑和添加讲师功能完成
+
+[33mcommit 775795ccc608d47c247cd37192ffca1134d8b688[m
+Author: deng <dengyahui@dd.com>
+Date:   Sun Jul 23 20:54:47 2017 +0800
+
+    讲师列表的查看和注销功能完成
+
+[33mcommit 1db72281d18d7a047a08556a0133f1d49a3d7ec4[m
+Author: deng <dengyahui@dd.com>
+Date:   Sun Jul 23 19:15:39 2017 +0800
+
+    退出功能优化完成
+
+[33mcommit c7724b11df300b2660131b5d0f81c00853d0a5f8[m
+Merge: 3684a15 f9640bc
+Author: deng <dengyahui@dd.com>
+Date:   Sun Jul 23 09:46:16 2017 +0800
+
+    退出功能实现
+
+[33mcommit 3684a1541b5b5f8d9bfdb2db7fbb29baf14149d4[m
+Author: deng <dengyahui@dd.com>
+Date:   Sat Jul 22 11:04:14 2017 +0800
+
+    提交到github之前的备份
+
+[33mcommit dc376f72fb8ef92b8dfe5e6faa2164ea5c428b09[m
+Author: deng <dengyahui@dd.com>
+Date:   Fri Jul 21 21:37:19 2017 +0800
+
+    登陆页面优化完成
+
+[33mcommit 6006d1860bc29a09fb3415a4521b7f0ef48cea8b[m
+Author: deng <dengyahui@dd.com>
+Date:   Fri Jul 21 21:29:18 2017 +0800
+
+    form表单异步请求数据插件使用完成
+
+[33mcommit 5b6aace63eb11ed8a6a3ab69a70e6f0715e65fca[m
+Author: deng <dengyahui@dd.com>
+Date:   Fri Jul 21 20:18:17 2017 +0800
+
+    index页面优化完成
+
+[33mcommit a4368c3a24be3071237b8a58da29bb3ac0d3a954[m
+Author: deng <dengyahui@dd.com>
+Date:   Fri Jul 21 20:04:23 2017 +0800
+
+    登陆页面模块化完成
+
+[33mcommit e95e8a03b5f2bb10187bd6d062fe7fe56a6ba80c[m
+Author: deng <dengyahui@dd.com>
+Date:   Fri Jul 21 19:17:56 2017 +0800
+
+    备份
+    git commit -m备份
+
+[33mcommit f9640bc1220d080d5ca4c58ddfcd1a956aee3ce1[m
+Author: deng <dengyahui@dd.com>
+Date:   Fri Jul 21 09:14:15 2017 +0800
+
+    项目搭建完成，登陆页面初步实现

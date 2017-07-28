@@ -50,10 +50,10 @@ define(["jquery","utils","template","uploadify","jcrop","form"],function($,utils
         $("#upload-btn").css("line-height","1.5");
         //注册裁切事件
         $(".preview").on("cropmove cropend",function(e,s,c){
-          $("[name=x]").val(c.x);
-          $("[name=y]").val(c.y);
-          $("[name=w]").val(c.w);
-          $("[name=h]").val(c.h);
+          $("[name = x]").val(c.x);
+          $("[name = y]").val(c.y);
+          $("[name = w]").val(c.w);
+          $("[name = h]").val(c.h);
         })
 
       }
@@ -71,7 +71,7 @@ define(["jquery","utils","template","uploadify","jcrop","form"],function($,utils
         setSelect: [0, 0, 400, 400]
       },function(){
         jcrop_api = this;
-        //this.initComponent("Thumbnailer", {container: ".thumb", top: 0, width: 240, height: 120})
+        this.initComponent("Thumbnailer", {container: ".thumb", top: 0, width: 240, height: 120})
       });
 
         $(this).text("保存图片");

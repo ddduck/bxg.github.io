@@ -1,7 +1,7 @@
 /**
  * Created by DYH98 on 2017/7/24.
  */
-define(["jquery", "ckeditor", "template", "datepicker", "datepickerCN", "region", "uploadify"], function ($, CKEDITOR, template) {
+define(["jquery", "ckeditor", "template", "datepicker", "datepickerCN", "region", "uploadify","form"], function ($, CKEDITOR, template) {
   //发送ajax请求
   $.ajax({
     url: "/api/teacher/profile",
@@ -12,7 +12,7 @@ define(["jquery", "ckeditor", "template", "datepicker", "datepickerCN", "region"
 
 
         //富文本编辑器插件
-        CKEDITOR.replace("editor", {
+        CKEDITOR.replace("tc_introduce", {
           toolbarGroups: [
             {name: 'clipboard', groups: ['clipboard', 'undo']},
             {name: 'editing', groups: ['find', 'selection', 'spellchecker', 'editing']},
@@ -61,41 +61,24 @@ define(["jquery", "ckeditor", "template", "datepicker", "datepickerCN", "region"
         });
 
 
-        //$("form").submit(function () {
-        //  //手动将富文本框的内容更新到textarea中
-        //  CKEDITOR.instances["tc_introduce"].updataElement();
-        //  //表单提交事件
-        //  $(this).ajaxSubmit({
-        //    url: "/api/teacher/modify",
-        //    type: "post",
-        //    data: {
-        //      tc_id: data.result.tc_id
-        //    },
-        //    success: function (data) {
-        //      console.log(data);
-        //      if (data.code == 200) {
-        //        alert("资料更新成功");
-        //      }
-        //    }
-        //  })
-        //
-        //  return false;
-        //})
-
-        $(".settings").on("click","#btn",function () {
-          $.ajax({
+        $("form").submit(function () {
+          //手动将富文本框的内容更新到textarea中
+          CKEDITOR.instances["tc_introduce"].updateElement();
+          //表单提交事件
+          $(this).ajaxSubmit({
             url: "/api/teacher/modify",
             type: "post",
             data: {
               tc_id: data.result.tc_id
             },
             success: function (data) {
+              console.log(data);
               if (data.code == 200) {
-                console.log(data);
                 alert("资料更新成功");
               }
             }
-          });
+          })
+
           return false;
         })
 
